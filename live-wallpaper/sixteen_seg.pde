@@ -42,15 +42,17 @@ int letters[]={
   0xDFC0,
   0xF000,
   0xFFC0,
-  0xFCC0};
+  0xFDC0};
   
-int week[][]={{letters[12], letters[14],letters[13]},
+int week[][]={
+  {letters[18], letters[20],letters[13]},
+  {letters[12], letters[14],letters[13]},
   {letters[19], letters[20], letters[4]},
   {letters[22], letters[4], letters[3]},
   {letters[19], letters[7], letters[20]}, 
   {letters[5], letters[17], letters[8]},
-  {letters[18], letters[0], letters[19]},
-  {letters[18], letters[20],letters[13]}};
+  {letters[18], letters[0], letters[19]}
+  };
   
 int month[][] ={{letters[9],  letters[0], letters[13]},
   {letters[5],  letters[4],  letters[1] },
