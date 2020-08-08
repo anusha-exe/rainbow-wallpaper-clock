@@ -36,7 +36,7 @@ color purple;
 void setup()
 {
   size(1080,1840);
- 
+  frameRate(1);
   orange = color(#FF4500);
   yellow = color(#FFFF44);
   green = color(#2EFF00);
@@ -52,7 +52,7 @@ void draw(){
  r = hour()%10;
  m = minute()/10;
  n = minute()%10;
- sec = second();
+ sec = frameCount;
  w = new Date().getDay();
  d = day()/10;
  y = day()%10;
@@ -77,7 +77,8 @@ void draw(){
   fill(255, 50);
   rect(xpoint + (270+l_rect), ypoint+75, 25,25, 40);
   rect(xpoint + (270+l_rect), ypoint+160, 25, 25,40);
- 
+  if(sec==59)
+  sec=0;
  
  //calendar
   for(int i=0; i<3; i++){
