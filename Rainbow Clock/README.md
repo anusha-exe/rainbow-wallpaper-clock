@@ -6,4 +6,5 @@ This programme is inspired by a [Coding Train video](https://youtu.be/MlRlgbrAVO
 So I guess we have to thank both of them.
 
 ### A screenshot of the programme:
+![Screenshot](/Rainbow Clock/clock.png)
 
