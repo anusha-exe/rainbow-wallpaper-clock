@@ -10,7 +10,7 @@ int h;
 int r;
 int m;
 int n;
-int sec;
+int sec=0;
 
 //Position of clock
 int l_rect=85;
@@ -52,7 +52,7 @@ void draw(){
  r = hour()%10;
  m = minute()/10;
  n = minute()%10;
- sec = frameCount;
+ sec++;
  w = new Date().getDay();
  d = day()/10;
  y = day()%10;
