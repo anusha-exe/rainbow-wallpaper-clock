@@ -48,14 +48,14 @@ void setup()
 
 void draw(){
  background (pink);
- h=hour()/10;
- r=hour()%10;
- m=minute()/10;
- n=minute()%10;
- sec=second();
- w=(new Date().getDay())-1;
- d= day()/10;
- y=day()%10;
+ h = hour()/10;
+ r = hour()%10;
+ m = minute()/10;
+ n = minute()%10;
+ sec = second();
+ w = new Date().getDay();
+ d = day()/10;
+ y = day()%10;
   
   circularGrad(width/2, height/2, pink, pink, 1);
   circularGrad(0, 0, orange, pink, 0.75);
