@@ -1,3 +1,8 @@
+/**This whole setup has been thought out and created by Bhaswar Chakraborty (Ivan-Denisovich-py). 
+The gradient system is what gives the wallpaper 
+its charm and meaning. Enjoy fiddling with it!
+*/
+
 //Colors
 color orange;
 color yellow;
