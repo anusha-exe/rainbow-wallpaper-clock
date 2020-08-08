@@ -59,13 +59,13 @@ int month [][] ={
 };
 
 int week[][]={
+  {letters[18], letters[20], letters[13]},
   {letters[12], letters[14], letters[13]},
   {letters[19], letters[20], letters[4] },
   {letters[22], letters[4],  letters[3] },
   {letters[19], letters[7],  letters[20]},
   {letters[5],  letters[17], letters[8] },
-  {letters[18], letters[0],  letters[19]}, 
-  {letters[18], letters[20], letters[13]}
+  {letters[18], letters[0],  letters[19]} 
   };
 
 void sixteen_seg(int val, int x, int y, int l, int b){
