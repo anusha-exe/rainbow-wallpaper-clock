@@ -4,6 +4,6 @@ This is a live wallpaper where you can see the date and time on a pretty rainbow
 <h1>APDE</h1>
 This program was created in APDE and if you want your **own** personalized wallpaper, you'll have to install it. APDE has an inbuilt Live Wallpaper app creating option which is absolutely amazing.
 
-#A screenshot of the wallpaper:
+<h2>A screenshot of the wallpaper:</h2>
 ![The Wallpaper of my Redmi Note 4](/live-wallpaper/my-wallpaper.png)
 
