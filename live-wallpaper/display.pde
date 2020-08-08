@@ -25,6 +25,13 @@ int space=40;
 int l_size=9;
 int b_size=2;
 
+//Colors
+color orange;
+color yellow;
+color green;
+color blue;
+color pink;
+color purple;
 
 void setup()
 {
