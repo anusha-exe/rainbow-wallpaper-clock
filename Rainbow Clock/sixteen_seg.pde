@@ -11,7 +11,7 @@ int nums_16[] = {
   0xDFC0,
   0xF000,
   0xFFC0,
-  0xFCC0
+  0xFDC0
 };
 
 int letters[]={
