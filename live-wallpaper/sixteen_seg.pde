@@ -1,3 +1,68 @@
+//A, B, C,...,(comma).
+int letters[]={
+  0xF3C0,
+  0xFC52,
+  0xCF00,
+  0xFC12,
+  0xCFC0,
+  0xC3C0,
+  0xDF40,
+  0x33C0,
+  0xCC12,
+  0x3E00,
+  0x389,
+  0xF00,
+  0x3328,
+  0x3321,
+  0xFF00,
+  0xE3C0,
+  0xFF01,
+  0xE3C1,
+  0xDDC0,
+  0xC012,
+  0x3F00,
+  0x3021,
+  0x3305,
+  0x2D,
+  0x21C0,
+  0xCC0C,
+  0x4};
+  
+  //0, 1, 2...,9.
+  int nums_16[] = {
+  0xFF21,
+  0x3000,
+  0xEEC0,
+  0xFCC0,
+  0x31C0,
+  0xCD81,
+  0xDFC0,
+  0xF000,
+  0xFFC0,
+  0xFCC0};
+  
+int week[][]={{letters[12], letters[14],letters[13]},
+  {letters[19], letters[20], letters[4]},
+  {letters[22], letters[4], letters[3]},
+  {letters[19], letters[7], letters[20]}, 
+  {letters[5], letters[17], letters[8]},
+  {letters[18], letters[0], letters[19]},
+  {letters[18], letters[20],letters[13]}};
+  
+int month[][] ={{letters[9],  letters[0], letters[13]},
+  {letters[5],  letters[4],  letters[1] },
+  {letters[12], letters[0], letters[17]},
+  {letters[0],  letters[15], letters[17]},
+  {letters[12], letters[0],  letters[24]},
+  {letters[9],  letters[20], letters[13]},
+  {letters[9],  letters[20], letters[11]},
+  {letters[0],  letters[20], letters[6]},
+  {letters[18], letters[4],  letters[15]},
+  {letters[14], letters[2],  letters[19]},
+  {letters[13], letters[14], letters[21]},
+  {letters[3],  letters[4],  letters[2] }};
+  
+  
 void sixteen_seg(int val, int x, int y, int l, int b){
   
   noStroke();
@@ -70,5 +135,6 @@ void sixteen_seg(int val, int x, int y, int l, int b){
   vertex(x + 2*l - b, y + 4*l);
   vertex(x + 2*l - b, y + 4*l - 2*b);
   endShape();
+ 
   
 }
