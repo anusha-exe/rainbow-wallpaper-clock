@@ -1,3 +1,6 @@
+/** Sixteen Segment Display. Based on the Seven Segment Display
+*/
+
 //A, B, C,...,(comma).
 int letters[]={
   0xF3C0,
