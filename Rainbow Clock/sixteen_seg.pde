@@ -1,3 +1,5 @@
+/** Sixteen Segment Display. Based on the Seven Segment Display
+
 int nums_16[] = {
   0xFF21,
   0x3000,
