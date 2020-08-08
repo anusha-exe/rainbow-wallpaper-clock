@@ -46,7 +46,7 @@ void draw(){
   m=minute()/10;
   n=minute()%10;
   sec=second();
-  w = new Date().getDay() - 1;
+  w = new Date().getDay();
   mnth = month() - 1;
   d = day()/10;
   ay = day() % 10;
