@@ -1,7 +1,7 @@
 # rainbow-wallpaper-clock
 This is a live wallpaper where you can see the date and time on a pretty rainbow gradient screen. What's more, you can change the colour gradients to your choice for your own wallpaper!
 ### Some screenshots of the programmes
-![Screenshot of the desktop version](/screenshots/demo_1.png) ![Screenshot of the wallpaper version](/screenshots/demo_2.jpg)
+![Screenshot of the desktop version](/screenshots/demo_1.png) ![Screenshot of the wallpaper version](/screenshots/demo_2.png)
 
 ### Authors:
 * [Anusha Tripathi](https://github.com/anusha-exe)
